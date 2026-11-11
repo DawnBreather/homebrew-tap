@@ -7,26 +7,26 @@
 # by position — a hash pasted into the wrong one of four blocks fails as `checksum mismatch` and names
 # none of them.
 cask "tmux-hub" do
-  version "0.5.13"
+  version "0.5.14"
 
   on_macos do
     on_intel do
-      sha256 "bf5de35c28adaf45d95c2aeb14bcdee65e9053da7cb6952bb802eff1fee1e102"
+      sha256 "1c3e7e6ebf97947e5c1226a2ac7d5f4c96e456906edd96fad9d03128c0d6bdc6"
       url "https://github.com/DawnBreather/tmux-hub/releases/download/v#{version}/tmux-hub_#{version}_macos_amd64.tar.gz"
     end
     on_arm do
-      sha256 "664d6a83487f3ad0356ec8fd2119e05d95f1be02152f7c39b1f38aa647ed2b1f"
+      sha256 "ad15ad88625476fcb6afe4b10727dfcd33ab6fba40b02aeba6acc8463180bf55"
       url "https://github.com/DawnBreather/tmux-hub/releases/download/v#{version}/tmux-hub_#{version}_macos_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "52dcded803672d7815d2d74c3d53e206ed052796669dcc6a8ac8afd91e435ec7"
+      sha256 "57376101096a76ad6fea124cd80c57bf2fe2fa7885bdb9502b99c4e3e438826f"
       url "https://github.com/DawnBreather/tmux-hub/releases/download/v#{version}/tmux-hub_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "12ed4971b60a427e6f5eae80f459cbd77a57d0a2d7cd5c9acf4d59b2803993bb"
+      sha256 "f84c95530f9e3aad6cfd754b3c5f81688c0f499d89bd056ad94a578145b96637"
       url "https://github.com/DawnBreather/tmux-hub/releases/download/v#{version}/tmux-hub_#{version}_linux_arm64.tar.gz"
     end
   end
